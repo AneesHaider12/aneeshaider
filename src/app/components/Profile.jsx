@@ -6,14 +6,14 @@ import profilepic from "@/app/public/egfgsd.jpg"
 import { motion } from "framer-motion"
 
 const Profile = () => {
-    // const headline="Nice to Meet You";
+    const headline="Nice to Meet You";
   return (
     <div className="my-24">
       <motion.div 
       initial={{opacity:0,y:-100}}
       animate={{opacity:1,y:0}}
       transition={{duration:1}}
-        className="flex flex-col items-center justify-center gap-3">
+        className="flex flex-col items-center justify-center gap-4">
           <Image
           src={profilepic}
           width={210}
@@ -24,7 +24,7 @@ const Profile = () => {
           <p className="tracking-tighter font-bold text-slate-800">
             Khushab,Punjab
           </p>
-          <Link href="/anees.pdf"
+          <Link href="#"
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -38,7 +38,7 @@ const Profile = () => {
         <div className="flex items-center flex-col justify-center p-8 mx-5">
 
         
-        <p className="flex items-center justify-center flex-wrap my-10 text-center text-6xl font-semibold tracking-wide lg:tracking-wider lg:text-[10rem] pb-5 pt-3   text-slate-900">
+        <p className="flex items-center justify-center flex-wrap my-4 text-center text-6xl font-semibold tracking-wide lg:tracking-wider lg:text-[10rem] pb-5 pt-1   text-slate-900">
         خوش آمدید    
         </p>
             <span className="my-2 text-center text-5xl font-semibold tracking-normal lg:text-[10rem]  text-slate-900 ">👋</span>
