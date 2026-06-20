@@ -7,7 +7,7 @@ const Footer = () => {
         <h1 className='px-4 font-normal tracking-wider text-lg sm:text-3xl lg:text-4xl flex items-center justify-center w-fit'>Contact </h1>
         <div className='flex items-center justify-center gap-3 lg:gap-8 px-2 '>
             <Link
-            href="https://www.linkedin.com/in/anees-haider-b5b648273/"
+            href="www.linkedin.com/in/anees-haider-45557921b"
             target="_blank"
             rel='noopener noreferrer'>
                 <FaLinkedin 
@@ -39,7 +39,7 @@ const Footer = () => {
                 width={26}
                 height={26}/>    
                 <h3 className='flex items-center font-sm text-xs sm:text-xl'>
-                    +92-3177095195
+                    +92-3216770898
                 </h3>
             </Link>
 
